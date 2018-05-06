@@ -15,9 +15,7 @@ class Gigasecond
   end
 end
 
-# module BookKeeping
-#   VERSION = 6 # Where the version number matches the one in the test.
-# end
-class BookKeeping
+module BookKeeping
+  VERSION = 6 # Where the version number matches the one in the test.
 end
-BookKeeping::VERSION = 6
+

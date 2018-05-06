@@ -23,9 +23,7 @@ class Squares
   end
 end
 
-# module BookKeeping
-#   VERSION = 4 # Where the version number matches the one in the test.
-# end
-class BookKeeping
+module BookKeeping
+  VERSION = 4 # Where the version number matches the one in the test.
 end
-BookKeeping::VERSION = 4
+

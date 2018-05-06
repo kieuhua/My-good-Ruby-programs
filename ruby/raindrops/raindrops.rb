@@ -19,9 +19,7 @@ class Raindrops
   end
 end
 
-# module BookKeeping
-#   VERSION = 3 # Where the version number matches the one in the test.
-# end
 module BookKeeping
+  VERSION = 3 # Where the version number matches the one in the test.
 end
-BookKeeping::VERSION = 3
+
