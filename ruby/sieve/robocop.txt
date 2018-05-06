@@ -1,0 +1,12 @@
+rubocop sieve.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+sieve.rb:1:81: C: Line is too long. [83/80]
+# Use the Sieve of Eratosthenes to find all the primes from 2 up to a given number.
+                                                                                ^^^
+sieve.rb:22:1: C: Trailing whitespace detected.
+
+1 file inspected, 2 offenses detected

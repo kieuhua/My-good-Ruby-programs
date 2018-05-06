@@ -1,0 +1,30 @@
+
+Kieu Hua
+I need to do more thinking before I can change the complexity of hey method
+
+rubocop bob.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+bob.rb:5:5: C: Cyclomatic complexity for hey is too high. [11/6]
+    def hey(remark)
+    ^^^
+bob.rb:5:5: C: Method has too many lines. [11/10]
+    def hey(remark) ...
+    ^^^^^^^^^^^^^^^
+bob.rb:5:5: C: Perceived complexity for hey is too high. [11/7]
+    def hey(remark)
+    ^^^
+bob.rb:12:25: C: Use =~ in places where the MatchData returned by #match will not be used.
+      return 'Sure.' if remark.match(/\A[0-9]\?\z/)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+bob.rb:21:7: C: Redundant return detected.
+      return 'Whatever.'
+      ^^^^^^
+bob.rb:31:25: C: Final newline missing.
+BookKeeping::VERSION = 1
+                        
+
+1 file inspected, 6 offenses detected

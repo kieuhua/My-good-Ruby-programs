@@ -1,0 +1,11 @@
+rubocop nth_prime.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+nth_prime.rb:13:5: C: Method has too many lines. [12/10]
+    def next_prime(cur_primes) ...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1 file inspected, 1 offense detected

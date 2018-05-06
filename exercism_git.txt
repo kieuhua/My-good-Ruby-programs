@@ -8,4 +8,4 @@ git remote add origin https://github.com/kieuhua/My-good-Ruby-programms.git
 git push -u origin master
 
 
-https://github.com/kieuhua/My-good-Ruby-programms
+https://github.com/kieuhua/My-good-Ruby-programs

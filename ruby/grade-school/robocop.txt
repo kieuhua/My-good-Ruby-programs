@@ -1,0 +1,20 @@
+rubocop grade_school.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+grade_school.rb:20:3: C: Method has too many lines. [16/10]
+  def students_by_grade ...
+  ^^^^^^^^^^^^^^^^^^^^^
+grade_school.rb:26:7: C: Use the return of the conditional for variable assignment and comparison.
+      if hsh_gr.key?(gr) ...
+      ^^^^^^^^^^^^^^^^^^
+grade_school.rb:36:17: C: Use the new Ruby 1.9 hash syntax.
+      ahash = { :grade => gr, :students => students.sort }
+                ^^^^^^^^^
+grade_school.rb:36:31: C: Use the new Ruby 1.9 hash syntax.
+      ahash = { :grade => gr, :students => students.sort }
+                              ^^^^^^^^^^^^
+
+1 file inspected, 4 offenses detected

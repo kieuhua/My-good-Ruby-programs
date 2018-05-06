@@ -1,0 +1,11 @@
+rubocop word_count.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+word_count.rb:24:3: C: Method has too many lines. [15/10]
+  def single_quote ...
+  ^^^^^^^^^^^^^^^^
+
+1 file inspected, 1 offense detected

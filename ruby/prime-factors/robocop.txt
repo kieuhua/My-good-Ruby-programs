@@ -1,0 +1,11 @@
+rubocop prime_factors.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+prime_factors.rb:4:5: C: Method has too many lines. [11/10]
+    def for(top) ...
+    ^^^^^^^^^^^^
+
+1 file inspected, 1 offense detected

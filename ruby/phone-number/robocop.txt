@@ -1,0 +1,31 @@
+rubocop phone_number.rb
+Inspecting 1 file
+W
+Offenses:
+# Kieu Hua phone_number is complex method, so it is long
+phone_number.rb:5:5: C: Assignment Branch Condition size for clean is too high. [37.44/15]
+    def clean(phone)
+    ^^^
+phone_number.rb:5:5: C: Cyclomatic complexity for clean is too high. [14/6]
+    def clean(phone)
+    ^^^
+phone_number.rb:5:5: C: Method has too many lines. [29/10]
+    def clean(phone) ...
+    ^^^^^^^^^^^^^^^^
+phone_number.rb:5:5: C: Perceived complexity for clean is too high. [15/7]
+    def clean(phone)
+    ^^^
+    
+# Kieu Hua, yes phone is useless variable, but it is there for readability.
+phone_number.rb:43:7: W: Useless assignment to variable - phone. Use _ or _phone as a variable name to indicate that it won't be used.
+      phone, local = locals(phone, 4)
+      ^^^^^
+phone_number.rb:51:7: W: Useless assignment to variable - phone. Use _ or _phone as a variable name to indicate that it won't be used.
+      phone, digits = parse_digits(phone, num)
+      ^^^^^
+phone_number.rb:51:14: W: Useless assignment to variable - digits. Use _ or _digits as a variable name to indicate that it won't be used.
+      phone, digits = parse_digits(phone, num)
+             ^^^^^^
+
+1 file inspected, 7 offenses detected
+

@@ -1,0 +1,26 @@
+rubocop run_length_encoding.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+run_length_encoding.rb:7:5: C: Assignment Branch Condition size for encode is too high. [19.21/15]
+    def encode(input)
+    ^^^
+run_length_encoding.rb:7:5: C: Method has too many lines. [16/10]
+    def encode(input) ...
+    ^^^^^^^^^^^^^^^^^
+run_length_encoding.rb:19:81: C: Line is too long. [89/80]
+          chr_count == 1 ? result << current_chr : result << chr_count.to_s + current_chr
+                                                                                ^^^^^^^^^
+run_length_encoding.rb:24:81: C: Line is too long. [85/80]
+      chr_count == 1 ? result << current_chr : result << chr_count.to_s + current_chr
+                                                                                ^^^^^
+run_length_encoding.rb:29:5: C: Method has too many lines. [12/10]
+    def decode(input) ...
+    ^^^^^^^^^^^^^^^^^
+run_length_encoding.rb:38:11: C: Use the return of the conditional for variable assignment and comparison.
+          chr_count.zero? ? result << chr : result << chr * chr_count
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1 file inspected, 6 offenses detected

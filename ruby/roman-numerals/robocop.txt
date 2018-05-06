@@ -1,0 +1,38 @@
+rubocop roman_numerals.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+roman_numerals.rb:4:3: C: Assignment Branch Condition size for to_roman is too high. [32.31/15]
+  def to_roman
+  ^^^
+roman_numerals.rb:4:3: C: Method has too many lines. [19/10]
+  def to_roman ...
+  ^^^^^^^^^^^^
+roman_numerals.rb:28:81: C: Line is too long. [81/80]
+  # analize the digit at its position, and return the roman string for that digit
+                                                                                ^
+roman_numerals.rb:30:3: C: Assignment Branch Condition size for do_digit is too high. [36.36/15]
+  def do_digit(chr, base)
+  ^^^
+roman_numerals.rb:30:3: C: Cyclomatic complexity for do_digit is too high. [18/6]
+  def do_digit(chr, base)
+  ^^^
+roman_numerals.rb:30:3: C: Method has too many lines. [26/10]
+  def do_digit(chr, base) ...
+  ^^^^^^^^^^^^^^^^^^^^^^^
+roman_numerals.rb:30:3: C: Perceived complexity for do_digit is too high. [15/7]
+  def do_digit(chr, base)
+  ^^^
+roman_numerals.rb:32:81: C: Line is too long. [81/80]
+    # 1 = base 1 char, 10 = base 2 chars, 100 = base 3 chars, 1000 = base 4 chars
+                                                                                ^
+roman_numerals.rb:33:81: C: Line is too long. [94/80]
+    romans = { 1 => 'I', 5 => 'V', 10 => 'X', 50 => 'L', 100 => 'C', 500 => 'D', 1000 => 'M' }
+                                                                                ^^^^^^^^^^^^^^
+roman_numerals.rb:58:5: C: Redundant else-clause.
+    else
+    ^^^^
+
+1 file inspected, 10 offenses detected

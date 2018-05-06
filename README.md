@@ -8,11 +8,11 @@ They are for Kieu Hua's potential employer to evaluate her work.
 ### Check out some of these interesting programs
 * phone-number
 * grade-school
-* roman_numerals
+* roman-numerals
 * run-length-encoding
-* sieve
 * word-count
 * sum-of-multiples
+* sieve
 * nth_prime
 
 ### Enhance Kieu Hua TDD skill
