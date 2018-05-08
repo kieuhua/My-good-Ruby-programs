@@ -1,3 +1,8 @@
+$ flay phone_number.rb
+Total score (lower is better) = 0
+
+########
+
 rubocop phone_number.rb
 Inspecting 1 file
 W

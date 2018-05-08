@@ -1,3 +1,8 @@
+$ flay rna_transcription.rb
+Total score (lower is better) = 0
+
+#########
+
 rubocop rna_transcription.rb
 Inspecting 1 file
 .

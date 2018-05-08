@@ -9,7 +9,7 @@ class Grains
     end
 
     def total
-      (1..CHESSBOARD_SQUARES).sum { |n| 2**(n - 1) }
+      (1..CHESSBOARD_SQUARES).sum { |n| square(n) }
     end
   end
 end

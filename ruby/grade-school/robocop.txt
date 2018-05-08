@@ -1,3 +1,7 @@
+$ flay grade_school.rb
+Total score (lower is better) = 0
+
+###########
 rubocop grade_school.rb
 Inspecting 1 file
 C

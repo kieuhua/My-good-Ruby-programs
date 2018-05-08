@@ -1,9 +1,8 @@
-$ flay sum_of_multiples.rb
+$ flay strain.rb
 Total score (lower is better) = 0
-
 #########
 
-rubocop sum_of_multiples.rb
+rubocop strain.rb
 Inspecting 1 file
 .
 

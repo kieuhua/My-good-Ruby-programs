@@ -1,3 +1,7 @@
+$ flay leap.rb
+Total score (lower is better) = 0
+#########
+
 rubocop hamming.rb
 Inspecting 1 file
 .

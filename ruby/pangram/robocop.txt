@@ -1,3 +1,7 @@
+$ flay pangram.rb
+Total score (lower is better) = 0
+#########
+
 rubocop pangram.rb
 Inspecting 1 file
 .

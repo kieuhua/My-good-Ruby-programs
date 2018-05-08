@@ -1,0 +1,36 @@
+$ flay beer_song.rb
+Total score (lower is better) = 0
+
+#######
+rubocop beer_song.rb
+Inspecting 1 file
+C
+
+Offenses:
+
+beer_song.rb:10:37: C: Name reduce block params |a, e|.
+    (num2..num1).reduce(output_a) { |_, e|  output_a << process_bottles(e) + "\n" }
+                                    ^^^^^^
+beer_song.rb:10:43: C: Unnecessary spacing detected.
+    (num2..num1).reduce(output_a) { |_, e|  output_a << process_bottles(e) + "\n" }
+                                          ^
+beer_song.rb:10:81: C: Line is too long. [83/80]
+    (num2..num1).reduce(output_a) { |_, e|  output_a << process_bottles(e) + "\n" }
+                                                                                ^^^
+beer_song.rb:14:3: C: Method has too many lines. [21/10]
+  def process_bottles(num) ...
+  ^^^^^^^^^^^^^^^^^^^^^^^^
+beer_song.rb:17:1: C: Use 2 (not -4) spaces for indentation.
+<<-TEXT
+^^^^
+beer_song.rb:22:1: C: Use 2 (not -4) spaces for indentation.
+<<-TEXT
+^^^^
+beer_song.rb:27:1: C: Use 2 (not -4) spaces for indentation.
+<<-TEXT
+^^^^
+beer_song.rb:32:1: C: Use 2 (not -4) spaces for indentation.
+<<-TEXT
+^^^^
+
+1 file inspected, 8 offenses detected

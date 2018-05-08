@@ -1,3 +1,7 @@
+$ flay word_count.rb
+Total score (lower is better) = 0
+##########
+
 rubocop word_count.rb
 Inspecting 1 file
 C

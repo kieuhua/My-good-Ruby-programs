@@ -1,8 +1,9 @@
-$ flay raindrops.rb
+$ flay etl.rb
 Total score (lower is better) = 0
-##########
 
-rubocop raindrops.rb
+#######
+
+$ rubocop etl.rb
 Inspecting 1 file
 .
 

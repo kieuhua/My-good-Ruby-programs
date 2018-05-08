@@ -1,3 +1,8 @@
+$ flay sieve.rb
+Total score (lower is better) = 0
+
+#######
+
 rubocop sieve.rb
 Inspecting 1 file
 C

@@ -1,5 +1,12 @@
+
+$ flay accumulate.rb
+Total score (lower is better) = 0
+
+############
 rubocop accumulate.rb
 Inspecting 1 file
 .
 
 1 file inspected, no offenses detected
+
+

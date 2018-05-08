@@ -1,4 +1,15 @@
 rubocop roman_numerals.rb
+$ flay roman_numerals.rb
+Total score (lower is better) = 72
+
+1) Similar code found in :when (mass = 72)
+  roman_numerals.rb:40
+  roman_numerals.rb:44
+  roman_numerals.rb:54
+
+############
+
+
 Inspecting 1 file
 C
 

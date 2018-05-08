@@ -1,8 +1,8 @@
-$ flay raindrops.rb
+$ flay trinary.rb
 Total score (lower is better) = 0
-##########
+########
 
-rubocop raindrops.rb
+$ rubocop trinary.rb
 Inspecting 1 file
 .
 

@@ -1,3 +1,7 @@
+$ flay gigasecond.rb
+Total score (lower is better) = 0
+#########
+
 rubocop gigasecond.rb
 Inspecting 1 file
 .

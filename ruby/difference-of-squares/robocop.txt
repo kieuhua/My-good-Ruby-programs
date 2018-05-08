@@ -1,3 +1,7 @@
+flay difference_of_squares.rb
+Total score (lower is better) = 0
+#########
+
 rubocop difference_of_squares.rb
 Inspecting 1 file
 .

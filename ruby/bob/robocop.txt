@@ -1,7 +1,7 @@
+$ flay bob.rb
+Total score (lower is better) = 0
 
-Kieu Hua
-I need to do more thinking before I can change the complexity of hey method
-
+###########
 rubocop bob.rb
 Inspecting 1 file
 C
